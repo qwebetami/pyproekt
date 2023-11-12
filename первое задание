@@ -1,0 +1,19 @@
+def main():        #начало функции, погнали
+ p = 0             #ввожу переменные
+ st = "an entrepreneur"
+ n = input("what's your name?")
+ a = int(input("how old are you?"))
+ for i in range(7, 100):           #разграничиваю промежуток вводимых данных
+     if a == i and a <= 17:        #ставлю любимый иф для первого случая и меняю значения переменным
+         s = a - 6
+         st = f"in {s} class"
+     elif a == i and a <= 21:      #элиф для другого случая и изменяю значения переменным снова
+         s = a - 17
+         st = f"at {s} course"
+     for i in range(15, 100):      #теперь рассматриваю промежуток для тех челов, которые уже имеют опыт в программировании
+         if i == a:
+             p = a - 14
+ print(f"hello, {n}! you're {st} and have {p} year(s) of programming experience. sounds cool!")  #вывожу все все
+if __name__ == '__main__':
+    main()          # the enddd
+
