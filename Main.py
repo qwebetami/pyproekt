@@ -8,8 +8,8 @@ while True:
     if vybor == 1
         p1 = 0             #setting variables
         st = "an entrepreneur"
-        n1 = input("what's your name?")
-        a1 = int(input("how old are you?"))
+        n1 = input("what's your name? \n")
+        a1 = int(input("how old are you? \n"))
         for i in range(7, 100):           #define the gap
             if a1 == i and a1 <= 17:        #put if for first case and change the meaning of variables
                 s = a1 - 6
@@ -39,28 +39,26 @@ while True:
     #5 excercise
 
 
-    if vybor == 5:
-     
-        def main():      #start
-            m0 = []      #enter variables 
-            m = []
-            b = 0        
-            j = 0
-            k = 1
-            n = int(input('type a natural number ')) #user introduces his own numbers
-            for i in range(1, n+1):      #range to denote the gap
-                b += 1
-                m0.append(b)
-            print(f'type in {n-1} numbers between 1 and {n} included')       #ask user to put more numbers
-            for i in range(1, n):         #gap
-                a = int(input())           #numbers, which were introduced 
-                m.append(a)                #append to add a
-            while m[j] == m0[j]:          #appeal (?) to d
-                k += 1          #increase variables
-                j += 1
-            print(k)         #giving out missing number
-            if name == 'main':
-                main()         #the end :D
+    if vybor == 5:    #start
+         m0 = []      #enter variables 
+         m = []
+         b = 0        
+         j = 0
+         k = 1
+         n = int(input('type a natural number ')) #user introduces his own numbers
+         for i in range(1, n+1):      #range to denote the gap
+             b += 1
+             m0.append(b)
+         print(f'type in {n-1} numbers between 1 and {n} included')       #ask user to put more numbers
+         for i in range(1, n):         #gap
+             a = int(input())           #numbers, which were introduced 
+             m.append(a)                #append to add a
+         while m[j] == m0[j]:          #appeal (?) to d
+             k += 1          #increase variables
+             j += 1
+         print(k)         #giving out missing number
+            
+
     #6 excercise
 
     if vybor == 6:
@@ -87,3 +85,14 @@ while True:
                 x = k                       
         print('the largest power of two not exceeding this number -', largchisl)
         t.sleep(7)
+
+
+     # 10 excercise
+
+
+    if vybor == 10:
+        a10 = float(input('Enter how many degrees the hour hand has turned since the beginning of the day '))
+        hours = int(a10 // 30)
+        minuts = int(a10 % 30 // 0.5)
+        seconds = int(((a10 % 30) % 0.5) // (1/120))
+        print('hours,', hours, ' minuts,' minuts,', seconds, 'seconds') 
