@@ -5,8 +5,8 @@ while True:
         for i in range(1, n + 1):#factorial formula
             n *= i
         return n
-        
 
+    
     # 4 excercise
 
     if vybor == 4:
@@ -32,4 +32,16 @@ while True:
                 f0, f1 = f1, f0 + f1
             print(f1)
         t.sleep(7)
+
+    
+    # 8 excercise
+
+    
     if vybor == 8:
+        n8 = int(input('please, enter natural number \n'))
+        largchisl = 0   
+        for k in range(n8):    
+            if k & (k - 1) == 0:    
+                x = k                       
+        print('the largest power of two not exceeding this number -', largchisl)
+        t.sleep(7)
