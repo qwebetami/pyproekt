@@ -5,6 +5,11 @@ while True:
         for i in range(1, n + 1):#factorial formula
             n *= i
         return n
+    
+    
+    #1 excercise    
+    
+    
     if vybor == 1
         p1 = 0             #setting variables
         st = "an entrepreneur"
