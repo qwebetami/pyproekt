@@ -78,7 +78,30 @@ while True:
                 f0, f1 = f1, f0 + f1
             print(f1)
         t.sleep(7)
-
+    if vybor == 7:
+        mx = 1
+        flag = False
+        while 1:
+            inp = input()#.split())
+            if inp == 'end': break
+            else:
+               val = int(inp)
+                if flag == False:
+                    cnt = 1
+                    cnt_val = val
+            flag = True
+            continue
+           if val == cnt_val:
+            cnt += 1
+            cnt_val = val
+            continue
+           else:
+               if cnt > mx:
+                mx = cnt
+                mx_val = cnt_val
+            cnt = 1
+            cnt_val = val
+        print(mx, mx_val, sep=' ')
     
     # 8 excercise
 
