@@ -5,7 +5,23 @@ while True:
         for i in range(1, n + 1):#factorial formula
             n *= i
         return n
-
+    if vybor == 1
+        p1 = 0             #setting variables
+        st = "an entrepreneur"
+        n1 = input("what's your name?")
+        a1 = int(input("how old are you?"))
+        for i in range(7, 100):           #define the gap
+            if a1 == i and a1 <= 17:        #put if for first case and change the meaning of variables
+                s = a1 - 6
+                st = f"in {s} class"
+            elif a1 == i and a1 <= 21:      #elif for other case and change the meaning again
+                s1 = a1 - 17
+                st = f"at {s} course"
+        for i in range(15, 100):      #gap for users, who has programming experience
+            if i == a1:
+                p1 = a1 - 14
+        print(f"hello, {n1}! you're {st} and have {p1} year(s) of programming experience. sounds cool!")  #outpul result         
+    # the enddd
     
     # 4 excercise
 
