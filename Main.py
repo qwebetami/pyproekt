@@ -1,6 +1,6 @@
 ⁸while True:
     import time as t
-    vybor = int(input('write one of the following numbers corresponding to the programs \n 1 - acquaintance\n 2 - LCD and LCM of two numbers\n 3 - нету(\n 4 - sum of cubes and sum of factorials \n 5 - missing number\n 6 - n-th Fibonacci number \n 7 - greatest number of consecutive numbers equal to each other\n 8 - the greatest integer power of two not exceeding\n 9 - poor snail\n 10 - clock hand\n'))
+    vybor = int(input('write one of the following numbers corresponding to the programs \n 1 - acquaintance\n 2 - LCD and LCM of two numbers\n 3 - operations with two numbers\n 4 - sum of cubes and sum of factorials \n 5 - missing number\n 6 - n-th Fibonacci number \n 7 - greatest number of consecutive numbers equal to each other\n 8 - the greatest integer power of two not exceeding\n 9 - poor snail\n 10 - clock hand\n'))
     def fac(n):
         for i in range(1, n + 1):#factorial formula
             n *= i
@@ -134,7 +134,11 @@
 
 
     if vybor == 7:
-        
+        n = int(input('enter real number'))
+        t.sleep(7)
+        print('erorr')
+        t.sleep(0.5)
+        print('there seems to be nothing here(-rep Ilze)')
 
 
     # 8 excercise
