@@ -21,7 +21,7 @@ while True:
             if i == a1:
                 p1 = a1 - 14
         print(f"hello, {n1}! you're {st} and have {p1} year(s) of programming experience. sounds cool!")  #outpul result         
-    # the enddd
+        t.sleep(7)# the enddd
     
     # 4 excercise
 
@@ -56,8 +56,9 @@ while True:
          while m[j] == m0[j]:          #appeal (?) to d
              k += 1          #increase variables
              j += 1
-         print(k)         #giving out missing number
-            
+         print(k)    #giving out missing number
+         t.sleep(7)   
+
 
     #6 excercise
 
@@ -96,3 +97,4 @@ while True:
         minuts = int(a10 % 30 // 0.5)
         seconds = int(((a10 % 30) % 0.5) // (1/120))
         print('hours,', hours, ' minuts,' minuts,', seconds, 'seconds') 
+        t.sleep(7)
