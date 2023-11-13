@@ -89,18 +89,18 @@ while True:
                 if flag == False:
                     cnt = 1
                     cnt_val = val
-            flag = True
-            continue
-           if val == cnt_val:
-            cnt += 1
-            cnt_val = val
-            continue
-           else:
-               if cnt > mx:
-                mx = cnt
-                mx_val = cnt_val
-            cnt = 1
-            cnt_val = val
+                    flag = True
+                    continue
+            if val == cnt_val:
+                cnt += 1
+                cnt_val = val
+                continue
+            else:
+                if cnt > mx:
+                    mx = cnt
+                    mx_val = cnt_val
+                cnt = 1
+                cnt_val = val
         print(mx, mx_val, sep=' ')
     
     # 8 excercise
