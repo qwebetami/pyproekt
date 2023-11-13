@@ -1,4 +1,4 @@
-while True:
+⁸while True:
     import time as t
     vybor = int(input('write one of the following numbers corresponding to the programs \n 1 - \n 2 - \n 3 - \n 4 - sum of cubes and sum of factorials \n 5 - \n 6 - n-th Fibonacci number \n 7 - \n 8 - \n 9 - \n 10 - \n'))
     def fac(n):
@@ -78,6 +78,11 @@ while True:
                 f0, f1 = f1, f0 + f1
             print(f1)
         t.sleep(7)
+
+
+    #  7 excercise
+
+
     if vybor == 7:
         mx = 1
         flag = False
