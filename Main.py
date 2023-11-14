@@ -34,16 +34,16 @@ while True:
 
     if vybor == 2:
         print('Enter two integers: ', end='')
-    n, k = map(int, input().split())
-    a, b = n, k
-    while 1:                #euclid 's algorithm for нод(a,b)
-        if(a == 0 or b == 0): break;
-        if a > b:
-            a = a % b
-        else:
-            b = b % a
-        print('least common divisor(', n, ', ' , k, ')', ' = ', a + b, sep='')
-        print('least common multiple(', n, ', ', k, ')', ' = ', int(n * k / (a + b)), sep='') #using the property нод(a,b)*нок(a,b)=a*b
+        n, k = map(int, input().split())
+        a, b = n, k
+        while 1:                #euclid 's algorithm for нод(a,b)
+            if(a == 0 or b == 0): break;
+            if a > b:
+                a = a % b
+            else:
+                b = b % a
+            print('least common divisor(', n, ', ' , k, ')', ' = ', a + b, sep='')
+            print('least common multiple(', n, ', ', k, ')', ' = ', int(n * k / (a + b)), sep='') #using the property нод(a,b)*нок(a,b)=a*b
 
 
 
@@ -170,6 +170,8 @@ while True:
                 if h <= 0: break
                 h = h + b
         print('Number of day:', day)
+    
+    
     # 10 excercise
 
 
