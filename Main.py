@@ -138,7 +138,7 @@ while True:
         t.sleep(7)
         print('erorr')
         t.sleep(0.5)
-        print('there seems to be nothing here(-rep Ilze)')
+        print('there seems to be nothing here')
 
 
     # 8 excercise
