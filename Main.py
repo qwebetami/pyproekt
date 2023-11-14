@@ -10,7 +10,7 @@ while True:
     # 1 excercise    
     
     
-    if vybor == 1
+    if vybor == 1:
         p1 = 0             #setting variables
         st = "an entrepreneur"
         n1 = input("what's your name? \n")
@@ -178,5 +178,5 @@ while True:
         hours = int(a10 // 30)   # finding number of hours
         minuts = int(a10 % 30 // 0.5)   # it`s finding of minutes
         seconds = int(((a10 % 30) % 0.5) // (1/120))   # and it`s seconds
-        print('hours,', hours, ' minuts,' minuts,', seconds, 'seconds')    # output answer
+        print('hours-', hours, ' minuts-', minuts,', seconds- ',seconds)    # output answer
         t.sleep(7)
