@@ -83,8 +83,8 @@
         sumcub = 0    # iznachalno numbers == 0 and then we'll adding positions
         sumfac = 0
         n4 = int(input('enter an integer \n'))
-        for i in range(n4 + 1):
-            sumcub += i ** 3    # adding cubes of all nums
+        for i in range(1, n4 + 1):
+            sumcub += i ** 3# adding cubes of all nums
             sumfac +=  fac(i)   # using functions of factorial and adding every to every
         print('sum of cubes -',sumcub,'sum of factorials -', sumfac)    #output znachenya
         t.sleep(7)    # give to user time to understand the answer
